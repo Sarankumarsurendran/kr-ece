@@ -68,16 +68,16 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={a1} alt="Description of the image"/>
+          <img className="pack-img" src={a1} alt="Description of the image" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a2} alt="Description of the image"/>
+          <img className="pack-img" src={a2} alt="Description of the image" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a3} alt="Description of the image"/>
+          <img className="pack-img" src={a3} alt="Description of the image" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a4} alt="Description of the image"/>
+          <img className="pack-img" src={a4} alt="Description of the image" />
         </div>
       </OwlCarousel>
 
@@ -85,55 +85,79 @@ const Achievements = () => {
         <h3 className="ach-heading1">Hackathon</h3>
       </div>
 
-       <div className="Achievements-csl">
-      <OwlCarousel
-        className="owl-theme"
-        loop
-        autoplay={true}
-        items="2"
-        dots={true}
-        smartSpeed={2000}
-        nav={false}
-        margin={20}
-        center={true}
-        autoplayTimeout={5000}
-        responsive={{
-          360: {
-            items: "1",
-          },
-          414: {
-            items: "1",
-          },
-          670: {
-            items: "2",
-          },
-          992: {
-            items: "2",
-          },
-          1200: {
-            items: "2",
-          },
-        }}
-      >
-        <div className="rank-img">
-          <img className="pack-img" src={hack1} alt="Description of the image"/>
-        </div>
-        <div className="rank-img">
-          <img className="pack-img" src={hack2} alt="Description of the image"/>
-        </div>
-        <div className="rank-img">
-          <img className="pack-img" src={sih} alt="Description of the image"/>
-        </div>
-        <div className="rank-img">
-          <img className="pack-img" src={sih1} alt="Description of the image"/>
-        </div>
-        <div className="rank-img">
-          <img className="pack-img" src={sih2} alt="Description of the image"/>
-        </div>
-        <div className="rank-img">
-          <img className="pack-img" src={sih3} alt="Description of the image"/>
-        </div>
-      </OwlCarousel>
+      <div className="Achievements-csl">
+        <OwlCarousel
+          className="owl-theme"
+          loop
+          autoplay={true}
+          items="2"
+          dots={true}
+          smartSpeed={2000}
+          nav={false}
+          margin={20}
+          center={true}
+          autoplayTimeout={5000}
+          responsive={{
+            360: {
+              items: "1",
+            },
+            414: {
+              items: "1",
+            },
+            670: {
+              items: "2",
+            },
+            992: {
+              items: "2",
+            },
+            1200: {
+              items: "2",
+            },
+          }}
+        >
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={hack1}
+              alt="Description of the image"
+            />
+          </div>
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={hack2}
+              alt="Description of the image"
+            />
+          </div>
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={sih}
+              alt="Description of the image"
+            />
+          </div>
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={sih1}
+              alt="Description of the image"
+            />
+          </div>
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={sih2}
+              alt="Description of the image"
+            />
+          </div>
+          <div className="rank-img">
+            <img
+              className="pack-img"
+              src={sih3}
+              alt="Description of the image"
+            />
+          </div>
+        </OwlCarousel>
       </div>
 
       <div>
