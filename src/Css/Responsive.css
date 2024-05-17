@@ -1,0 +1,226 @@
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+  }
+
+  .column {
+    margin-top: -10rem;
+  }
+
+  .youtube-icon{
+      margin-top: -43%;
+      left: 43%;
+      width: 60px;
+      height: auto;
+  }
+
+  .ece-dept {
+    display: block;
+    /* flex-direction: column; */
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .heading {
+    margin-top: 6px;
+  }
+
+  .image {
+    width: 100%;
+    padding: 3rem;
+    margin-top: 26px;
+  }
+
+  .ece-para {
+    height: 10rem;
+    width: 18rem;
+  }
+
+  .faculty-image {
+    padding: 2rem;
+  }
+
+  /* lab start */
+
+  .lab-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .lab-image {
+    margin-top: -5rem;
+  }
+
+  .staff-name {
+    font-size: medium;
+  }
+
+  .lab-incharge {
+    margin-top: -3rem;
+  }
+
+  .two-row-container {
+    margin-top: -13rem;
+  }
+
+  .two1-row-container {
+    margin-top: 13rem;
+  }
+
+  .row-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .contact-footer {
+    font-family: poppins-bold;
+  }
+
+  .footer-mobile {
+    font-family: poppins-semibold;
+  }
+
+  .footer-img {
+    margin-left: 2px;
+  }
+
+  .footernaac-img {
+    margin-top: 30px;
+  }
+
+  .footertnea-img {
+    margin-top: 30px;
+  }
+
+  .naacimg {
+    margin-left: -26px;
+  }
+
+  .contact {
+    margin-left: -1rem;
+  }
+
+  .row-container {
+    margin-top: 6rem;
+  }
+
+  .about-pic {
+    padding-left: 0;
+  }
+
+  .about-content {
+    margin-top: 0;
+  }
+
+  /* Management */
+
+  .Management-container {
+    margin-top: 13rem;
+  }
+
+  /* placement */
+
+  .column2 {
+    margin-top: -7rem;
+  }
+
+  .placementimage img {
+    margin-top: -3rem;
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .carousel {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .owl-carousel.owl-drag .owl-item {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .ach-heading{
+    color: #ea1f27;
+    margin-top: 14px;
+  }
+
+  /* faculty */
+
+  .faculty{
+    flex-direction: column-reverse;
+  }
+
+  .staff-container-right {
+    padding: 0rem;
+    padding-top: 7rem;
+    padding-bottom: 0rem;
+    background-color: #e8f0f7;
+  }
+
+  .staff-container-left {
+    padding: 0rem;
+    padding-bottom: 0rem;
+    background-color: #f6f6f6;
+  }
+
+  .staff-para {
+    text-align: justify;
+  }
+
+  .staff-img {
+    padding: 0rem;
+  }
+
+  .staff-img1 {
+    padding: 0rem;
+    margin-top: -100px;
+  }
+
+  .male-staff1{
+    max-width: 66%;
+   margin-left: 0rem
+  }
+
+  .banner-text {
+    color: #fff;
+    text-align: center;
+    margin-top: -10rem;
+    font-size: medium;
+  }
+
+  .banner-content{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .dept {
+    font-weight: bolder;
+    font-size: 21px;
+  }
+
+  /* banner */
+
+  .image-banner {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* .lab-incharge{
+    margin-top: -3rem;
+  } */
+}
