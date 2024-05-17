@@ -26,7 +26,7 @@ const Aboutpage = () => {
       <div className="row-container">
         <div className="row align-items-center">
         <div className="col-lg-6">
-          <img className="about-pic" src={about} alt="Image" />       
+          <img className="about-pic" src={about} alt="malestaff" />       
         </div>
         <div className="col-lg-6">
         <div className="about-content p-5">

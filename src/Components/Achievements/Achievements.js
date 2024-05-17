@@ -3,7 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Navbar from "../Navbar/Navbar";
-import dummy from "../../assets/Images/dummy.jpg";
 import Footer from "../Footer/Footer";
 import hack1 from "../../assets/Achievementimg/hack1.jpeg";
 import hack2 from "../../assets/Achievementimg/hack2.jpeg";
@@ -69,16 +68,16 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={a1} alt="image" />
+          <img className="pack-img" src={a1} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a2} alt="image" />
+          <img className="pack-img" src={a2} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a3} alt="image" />
+          <img className="pack-img" src={a3} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a4} alt="image" />
+          <img className="pack-img" src={a4} />
         </div>
       </OwlCarousel>
 
@@ -117,22 +116,22 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={hack1} alt="image" />
+          <img className="pack-img" src={hack1} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={hack2} alt="image" />
+          <img className="pack-img" src={hack2} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih} alt="image" />
+          <img className="pack-img" src={sih} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih1} alt="image" />
+          <img className="pack-img" src={sih1} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih2} alt="image" />
+          <img className="pack-img" src={sih2} />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih3} alt="image" />
+          <img className="pack-img" src={sih3} />
         </div>
       </OwlCarousel>
       </div>
