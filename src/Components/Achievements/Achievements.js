@@ -68,16 +68,16 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={a1} alt="Description of the image" />
+          <img className="pack-img" src={a1} alt="Top ranking student 1" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a2} alt="Description of the image" />
+          <img className="pack-img" src={a2} alt="Top ranking student 2" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a3} alt="Description of the image" />
+          <img className="pack-img" src={a3} alt="Top ranking student 3" />
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a4} alt="Description of the image" />
+          <img className="pack-img" src={a4} alt="Top ranking student 4" />
         </div>
       </OwlCarousel>
 
@@ -116,46 +116,22 @@ const Achievements = () => {
           }}
         >
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={hack1}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={hack1} alt="Hackathon event 1" />
           </div>
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={hack2}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={hack2} alt="Hackathon event 2" />
           </div>
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={sih}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={sih} alt="Smart India Hackathon event 1" />
           </div>
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={sih1}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={sih1} alt="Smart India Hackathon event 2" />
           </div>
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={sih2}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={sih2} alt="Smart India Hackathon event 3" />
           </div>
           <div className="rank-img">
-            <img
-              className="pack-img"
-              src={sih3}
-              alt="Description of the image"
-            />
+            <img className="pack-img" src={sih3} alt="Smart India Hackathon event 4" />
           </div>
         </OwlCarousel>
       </div>
@@ -170,3 +146,4 @@ const Achievements = () => {
 };
 
 export default Achievements;
+
