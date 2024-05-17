@@ -34,10 +34,10 @@ import Homecarousel from "../Recruitercarousel/Homecarousel";
 import Footer from "../Footer/Footer";
 
 const HomeContent = () => {
-  const [FacultiesCount, setFacultiesCount] = useState(30);
-  const [StudentsCount, setStudentsCount] = useState(180);
-  const [AlumniCount, setAlumniCount] = useState(2000);
-  const [AwardsCount, setAwardsCount] = useState(200);
+  const [FacultiesCount] = useState(30);
+  const [StudentsCount] = useState(180);
+  const [AlumniCount] = useState(2000);
+  const [AwardsCount] = useState(200);
 
   return (
     <>
@@ -260,7 +260,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab2} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab2} class="card-img-top" alt="Placeholder1 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Digital System Laboratory</h5>
                   <br></br>
@@ -288,7 +288,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab3} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab3} class="card-img-top" alt="Placeholder2 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Linear Integration Circuit Laboratory
@@ -322,7 +322,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab4} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab4} class="card-img-top" alt="Placeholder3 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Communication System Laboratory</h5>
                   <p class="card-text">
@@ -347,7 +347,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab5} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab5} class="card-img-top" alt="Placeholder4 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Microprocessor & Microcontroller Laboratory
@@ -374,7 +374,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab6} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab6} class="card-img-top" alt="Placeholder5 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Digital Signal Processing Laboratory
@@ -406,7 +406,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab7} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab7} class="card-img-top" alt="Placeholder6 Image" />
                 <div class="card-body">
                   <h5 class="card-title">VLSI Design Laboratory</h5>
                   <p class="card-text">
@@ -431,7 +431,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab8} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab8} class="card-img-top" alt="Placeholder7 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Computer Network Laboratory</h5>
                   <p class="card-text">
@@ -456,7 +456,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab9} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab9} class="card-img-top" alt="Placeholder8 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Embedded Laboratory</h5>
                   <p class="card-text">
@@ -486,7 +486,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab10} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab10} class="card-img-top" alt="Placeholder9 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Optical & Microwave Laboratory</h5>
                   <p class="card-text">
@@ -511,7 +511,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab11} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab11} class="card-img-top" alt="Placeholder10 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Circuits & Devices Laboratory</h5>
                   <br></br>
@@ -537,7 +537,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab12} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab12} class="card-img-top" alt="Placeholder11 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Oops & DataStructure Laboratory</h5>
                   <p class="card-text">
@@ -567,7 +567,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab13} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab13} class="card-img-top" alt="Placeholder12 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Research & Development - I Laboratory
@@ -593,7 +593,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab14} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab14} class="card-img-top" alt="Placeholder13 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Research & Development - II Laboratory
@@ -619,7 +619,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab15} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab15} class="card-img-top" alt="Placeholder14 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Texas Instruments Innovation Laboratory
@@ -650,7 +650,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab16} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab16} class="card-img-top" alt="Placeholder15 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Communication Systems Laboratory</h5>
                   <p class="card-text">
@@ -675,7 +675,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab17} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab17} class="card-img-top" alt="Placeholder16 Image" />
                 <div class="card-body">
                   <h5 class="card-title">RF System Design Laboratory</h5>
                   <br></br>
@@ -701,7 +701,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab18} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab18} class="card-img-top" alt="Placeholder17 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Analog & Digital Circuits Laboratory
@@ -733,7 +733,7 @@ const HomeContent = () => {
           <div class="row">
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab19} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab19} class="card-img-top" alt="Placeholder18 Image" />
                 <div class="card-body">
                   <h5 class="card-title">
                     Circuits & Simulation Integrated Laboratory
@@ -759,7 +759,7 @@ const HomeContent = () => {
             </div>
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab20} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab20} class="card-img-top" alt="Placeholder19 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Advanced VLSI Laboratory</h5>
                   <br></br>
@@ -785,7 +785,7 @@ const HomeContent = () => {
 
             <div class="col-md-4 d-flex">
               <div class="lab-card">
-                <img src={lab21} class="card-img-top" alt="Placeholder Image" />
+                <img src={lab21} class="card-img-top" alt="Placeholder20 Image" />
                 <div class="card-body">
                   <h5 class="card-title">Project Laboratory</h5>
                   <br></br>
