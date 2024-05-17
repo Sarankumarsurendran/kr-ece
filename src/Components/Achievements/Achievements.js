@@ -3,7 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Navbar from "../Navbar/Navbar";
-import dummy from "../../assets/Images/dummy.jpg";
 import Footer from "../Footer/Footer";
 import hack1 from "../../assets/Achievementimg/hack1.jpeg";
 import hack2 from "../../assets/Achievementimg/hack2.jpeg";

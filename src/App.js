@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import './App.css';
 import "../src/Css/Style.css";
 import "../src/Css/Responsive.css";
