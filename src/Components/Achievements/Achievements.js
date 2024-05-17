@@ -68,16 +68,16 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={a1} />
+          <img className="pack-img" src={a1} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a2} />
+          <img className="pack-img" src={a2} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a3} />
+          <img className="pack-img" src={a3} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={a4} />
+          <img className="pack-img" src={a4} alt="Description of the image"/>
         </div>
       </OwlCarousel>
 
@@ -116,22 +116,22 @@ const Achievements = () => {
         }}
       >
         <div className="rank-img">
-          <img className="pack-img" src={hack1} />
+          <img className="pack-img" src={hack1} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={hack2} />
+          <img className="pack-img" src={hack2} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih} />
+          <img className="pack-img" src={sih} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih1} />
+          <img className="pack-img" src={sih1} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih2} />
+          <img className="pack-img" src={sih2} alt="Description of the image"/>
         </div>
         <div className="rank-img">
-          <img className="pack-img" src={sih3} />
+          <img className="pack-img" src={sih3} alt="Description of the image"/>
         </div>
       </OwlCarousel>
       </div>
