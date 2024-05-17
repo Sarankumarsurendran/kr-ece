@@ -16,23 +16,4 @@ function App() {
 export default App;
 
 
-{/* import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import "../src/Css/Style.css";
-import Main from './Main';
-import Homebanner from './Components/Home/HomeBanner';
-import HomeContent from './Components/Home/HomeContent';
-
-
-const App = () => {
-  return (
-    <div>
-      <Navbar />       
-      <Main />
-    </div>
-  )
-}
-
-export default App */}
-
 
